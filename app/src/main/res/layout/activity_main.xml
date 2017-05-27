@@ -36,7 +36,4 @@
         android:textColor="@android:color/white"
         android:padding="24dp"
         />
-
-
-
 </RelativeLayout>
