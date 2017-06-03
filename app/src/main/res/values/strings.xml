@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">UdacityUserInterface</string>
-    <string name="from_rishi">From Rishi</string>
+    <string name="from_rishi">Upload</string>
     <string name="image_for_birthday_card">Image for birthday card</string>
     <string name="happy_birthday_saptarshi">Happy Birthday, Saptarshi!!</string>
+    <string name="action_upload_image">Upload an image</string>
+    <string name="action_share">Share</string>
+    <string name="add_a_message">Add a Message</string>
+    <string name="change_text_color">Change text color</string>
 </resources>

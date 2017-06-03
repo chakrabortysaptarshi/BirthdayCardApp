@@ -1,40 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/birthdayLayout"
     tools:context="com.example.ssapt.udacityuserinterface.MainActivity">
 
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:elevation="4dp"
+        android:background="@color/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
     <ImageView
+        android:id="@+id/imageBirthday"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/Birthday"
+        android:src="@drawable/birthday"
         android:scaleType="centerCrop"
+        android:layout_marginTop="32dp"
         android:contentDescription="@string/image_for_birthday_card" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/from_rishi"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:textSize="32sp"
-        android:fontFamily="sans-serif-light"
-        android:textColor="@android:color/white"
-        android:padding="24dp"
-        />
 
     <TextView
         android:id="@+id/BirthdayGreeting"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/happy_birthday_saptarshi"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
         android:textSize="32sp"
         android:fontFamily="sans-serif-light"
         android:textColor="@android:color/white"
         android:padding="24dp"
-        />
+        android:layout_marginTop="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>
+

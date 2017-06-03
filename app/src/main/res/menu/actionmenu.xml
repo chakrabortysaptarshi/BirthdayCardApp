@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/ic_action_name"
+        android:title="@string/action_share"
+        app:showAsAction="ifRoom"/>
+
+    <!-- Settings, should always be in the overflow -->
+    <item android:id="@+id/action_upload_image"
+        android:title="@string/action_upload_image"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_textMesaage"
+        android:title="@string/add_a_message"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_change_color"
+        android:title="@string/change_text_color"
+        app:showAsAction="never" />
+</menu>
